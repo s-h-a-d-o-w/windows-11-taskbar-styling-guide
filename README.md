@@ -336,6 +336,17 @@ Style:
 Visibility=Collapsed
 ```
 
+### Hide the charging icon
+
+Target:
+```
+SystemTray.OmniButton#ControlCenterButton > Grid > ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter[3] > SystemTray.IconView > Grid > Grid
+```
+Style:
+```
+Visibility=Collapsed
+```
+
 ### Chevron icon width
 
 Target:
@@ -462,7 +473,7 @@ Fill:=<AcrylicBrush TintColor="{ThemeResource SystemAccentColorDark2}" TintOpaci
 
 ### Mica effect as color
 
-> [!NOTE]  
+> [!NOTE]
 > Unfortunately I haven't figured this out yet. If you have any info please
 > contribute by making a pull request.
 
